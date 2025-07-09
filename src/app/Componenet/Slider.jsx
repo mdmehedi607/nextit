@@ -9,25 +9,25 @@ import Dialogebox from "./Dialogebox";
 
 const slideritems = [
     {
-      image:'/image/illustration.png',
+      image:'/image/Illustration.png',
       title:'Your Best IT Solutions',
       span: 'From 8 Years',
       details:'Where to grow your business as a It: site or social media?'
     },
       {
-      image:'/image/illustration.png',
+      image:'/image/Illustration.png',
       title:'Your Best IT Solutions',
       span: 'From 8 Years',
       details:'Where to grow your business as a It: site or social media?'
     },
       {
-      image:'/image/illustration.png',
+      image:'/image/Illustration.png',
       title:'Your Best IT Solutions',
       span: 'From 8 Years',
       details:'Where to grow your business as a It: site or social media?'
     },
       {
-      image:'/image/illustration.png',
+      image:'/image/Illustration.png',
       title:'Your Best IT Solutions',
       span: 'From 8 Years',
       details:'Where to grow your business as a It: site or social media?'

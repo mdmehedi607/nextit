@@ -4,18 +4,18 @@
 import Image from 'next/image';
 
    const logos = [
-  { id: 1, src: '/image/logo1.svg', alt: 'Logo 1' },
-  { id: 2, src: '/image/logo2.svg', alt: 'Logo 2' },
-  { id: 3, src: '/image/logo3.svg', alt: 'Logo 3' },
-  { id: 4, src: '/image/logo4.svg', alt: 'Logo 4' },
-  { id: 5, src: '/image/logo5.svg', alt: 'Logo 5' },
-  { id: 6, src: '/image/logo6.svg', alt: 'Logo 5' },
+  { id: 1, src: '/image/Logo1.svg', alt: 'Logo 1' },
+  { id: 2, src: '/image/Logo2.svg', alt: 'Logo 2' },
+  { id: 3, src: '/image/Logo3.svg', alt: 'Logo 3' },
+  { id: 4, src: '/image/Logo4.svg', alt: 'Logo 4' },
+  { id: 5, src: '/image/Logo5.svg', alt: 'Logo 5' },
+  { id: 6, src: '/image/Logo6.svg', alt: 'Logo 5' },
 ];
 
 export default function Logoslide() {
   return (
-    <div className="overflow-hidden p-4 bg-white">
-      <div className="flex animate-marquee gap-4 md:8 whitespace-nowrap items-center">
+    <div className="overflow-hidden p-4 bg-white w-19/20 mx-auto">
+      <div className="flex animate-marquee gap-4 md:gap-8 whitespace-nowrap items-center ">
         {[...logos, ...logos].map((logo, index) => (
           <div key={index} className="px-2 flex-shrink-0">
             <Image

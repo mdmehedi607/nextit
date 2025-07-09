@@ -63,12 +63,12 @@ export default function Home() {
   ]
 
    const logos = [
-  { id: 1, src: '/image/logo1.svg', alt: 'Logo 1' },
-  { id: 2, src: '/image/logo2.svg', alt: 'Logo 2' },
-  { id: 3, src: '/image/logo3.svg', alt: 'Logo 3' },
-  { id: 4, src: '/image/logo4.svg', alt: 'Logo 4' },
-  { id: 5, src: '/image/logo5.svg', alt: 'Logo 5' },
-  { id: 6, src: '/image/logo6.svg', alt: 'Logo 5' },
+  { id: 1, src: '/image/Logo1.svg', alt: 'Logo 1' },
+  { id: 2, src: '/image/Logo2.svg', alt: 'Logo 2' },
+  { id: 3, src: '/image/Logo3.svg', alt: 'Logo 3' },
+  { id: 4, src: '/image/Logo4.svg', alt: 'Logo 4' },
+  { id: 5, src: '/image/Logo5.svg', alt: 'Logo 5' },
+  { id: 6, src: '/image/Logo6.svg', alt: 'Logo 5' },
 ];
 
 const marketingItems = [
@@ -102,7 +102,7 @@ const marketingItems = [
           <p className="text-sm md:text-lg text-gray-400">
             We have been working with almost 300+ clients
           </p>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center w-19/20 overflow-hidden mx-auto">
             <Logoslide />
           </div>
         </div>
@@ -147,7 +147,7 @@ const marketingItems = [
       </div>
       {/* Helping section*/}
       <div className="flex flex-col justify-center items-center gap-5 ">
-         <div className="w-screen flex flex-col md:flex-row justify-center items-center gap-4 px-4 md:px-15 py-4 bg-green-50">
+         <div className="w-full flex flex-col md:flex-row justify-center items-center gap-4 px-4 md:px-15 py-4 bg-green-50">
            <div className="flex flex-2 flex-col gap-3 justify-baseline md:p-15">
             <h3 className="text-xl md:text-3xl text-gray-800 font-bold">Helping a local <br/> <span className="text-green-500">business reinvent itself</span></h3>
             <p className="text-sm md:text-lg text-gray-400">We reached here with our hard work and dedication</p>
